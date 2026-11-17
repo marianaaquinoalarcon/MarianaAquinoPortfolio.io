@@ -1,0 +1,199 @@
+@import url('https://fonts.free/static/fontfiles/montserrat/montserrat.css');
+@import url('https://fonts.free/static/fontfiles/poppins/poppins.css');
+:root {
+  --bg-rosa-melon: #ffb7a1;
+  --y2k-accent-pink: #ff6b8b;
+  --y2k-hot-pink: #ff2a74;
+  --y2k-light-sparkle: #fff8d6;
+  --y2k-purple: #8e44ad;
+  --y2k-dark-purple: #4a154b;
+  --glass-bg: rgba(255, 255, 255, 0.7);
+  --glass-border: rgba(255, 255, 255, 0.9);
+  --window-header: linear-gradient(90deg, #ff6b8b 0%, #ff8e53 100%);
+  --fuente-titulo: font-family: 'Montserrat', sans-serif;
+  --fuente-texto: font-family: 'Poppins', sans-serif;
+  --fuente-especial: font-family: 'VT323', monospace;
+}
+
+/* Fondos de pagina */
+
+ * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: var(--bg-rosa-melon);
+      font-family: var(--fuente-texto);
+      color: #2e1a23;
+      overflow-x: hidden;
+      min-height: 100vh;
+    }
+
+    /* Fondo de lluvia de estrellas */
+    #y2k-canvas {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      z-index: -1;
+      pointer-events: none;
+    }
+
+    /* Fuente de titulos */
+    h1, h2, h3, h4, .brand-font, .retro-title {
+      font-family: var(--fuente-titulo);
+    }
+
+    /* Y2K card */
+    .y2k-card {
+      background: var(--glass-bg);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border: 3px solid var(--glass-border);
+      border-radius: 24px;
+      box-shadow: 0 12px 35px rgba(232, 67, 147, 0.18), 
+                  inset 0 0 15px rgba(255, 255, 255, 0.7);
+    }
+
+    /* Y2K Window */
+    .y2k-window {
+      background: rgba(255, 255, 255, 0.82);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      border: 3px solid #ffffff;
+      border-radius: 18px;
+      box-shadow: 0 15px 40px rgba(214, 48, 49, 0.2), inset 0 0 20px rgba(255, 255, 255, 0.8);
+      overflow: hidden;
+    }
+
+    .y2k-window-header {
+      background: var(--window-header);
+      padding: 10px 18px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: white;
+      font-family: var(--fuente-especial);
+      letter-spacing: 0.5px;
+      border-bottom: 2px solid rgba(255, 255, 255, 0.8);
+    }
+
+    .window-controls {
+      display: flex;
+      gap: 6px;
+    }
+
+    .window-btn {
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      display: inline-block;
+      border: 1px solid rgba(0, 0, 0, 0.15);
+    }
+
+    .window-btn-close { background-color: #ff5f56; }
+    .window-btn-min { background-color: #ffbd2e; }
+    .window-btn-max { background-color: #27c93f; }
+
+    /* Y2K botones */
+    .btn-y2k {
+      background: linear-gradient(125deg, #ff7675 0%, var(--y2k-purple) 80%);
+      color: white;
+      font-weight: 700;
+      border-radius: 30px;
+      border: 2px solid #ffffff;
+      padding: 12px 28px;
+      box-shadow: 0 6px 15px rgba(255, 42, 116, 0.3), inset 0 2px 4px rgba(255, 255, 255, 0.5);
+      transition: all 0.25s ease;
+      text-transform: uppercase;
+      letter-spacing: 0.2px;
+    }
+
+    .btn-y2k:hover, .btn-y2k:focus {
+      background: linear-gradient(135deg, var(--y2k-hot-pink) 0%, #d62d58 100%);
+      color: white;
+      transform: scale(1.04) translateY(-2px);
+      box-shadow: 0 10px 22px rgba(255, 42, 116, 0.45), inset 0 2px 6px rgba(255, 255, 255, 0.9);
+    }
+
+    .btn-y2k-outline {
+      background: rgba(255, 255, 255, 0.65);
+      color: var(--y2k-hot-pink);
+      font-weight: 700;
+      border-radius: 30px;
+      border: 2.5px solid var(--y2k-hot-pink);
+      padding: 12px 28px;
+      transition: all 0.25s ease;
+    }
+
+    .btn-y2k-outline:hover {
+      background: var(--y2k-hot-pink);
+      color: white;
+      transform: scale(1.04) translateY(-2px);
+      box-shadow: 0 8px 20px rgba(255, 42, 116, 0.3);
+    }
+
+    /* Texto*/
+    .text-y2k-gradient {
+      background: linear-gradient(45deg, #d63031, var(--y2k-hot-pink), #e84393);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    /* Y2K Badges */
+    .y2k-badge {
+      background: rgba(255, 255, 255, 0.9);
+      color: var(--y2k-hot-pink);
+      border: 1.5px solid var(--y2k-accent-pink);
+      border-radius: 20px;
+      padding: 6px 14px;
+      font-size: 0.85rem;
+      font-weight: 700;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .y2k-badge-purple {
+      background: rgba(240, 230, 255, 0.9);
+      color: var(--y2k-purple);
+      border-color: #b197fc;
+      font-size: 0.75rem;
+    }
+
+    /* Stack*/
+    .stack-box {
+      background: rgba(255, 255, 255, 0.7);
+      border-radius: 16px;
+      border: 2px solid rgba(255, 255, 255, 0.9);
+      padding: 16px;
+      margin-bottom: 12px;
+      transition: transform 0.2s ease;
+    }
+
+    .stack-box:hover {
+      transform: scale(1.02);
+      background: rgba(255, 255, 255, 0.85);
+    }
+
+    .code-tag {
+      background: #2b1d28;
+      color: #ff9ff3;
+      padding: 2px 8px;
+      border-radius: 6px;
+      font-family: monospace;
+      font-size: 0.85rem;
+    }
+
+    /* Animacion Destellos */
+    .pulse-star {
+      animation: pulseSparkle 2s infinite alternate ease-in-out;
+    }
+@keyframes pulseSparkle {
+      0% { transform: scale(1) rotate(0deg); opacity: 0.8; }
+      100% { transform: scale(1.25) rotate(15deg); opacity: 1; }
+    }
