@@ -5,7 +5,7 @@ document.querySelector("#contacto").innerHTML = `
 <div class="row justify-content-center">
   <div class="col-lg-8">
     <div class="contact-card y2k-card p-5 rounded-4 shadow-lg">
-      <h2 class=" fw-bold text-gradient text-center mb-4">📫 Envíame un Mensaje</h2>
+      <h3 class=" fw-bold text-gradient text-center mb-4">Envíame un Mensaje</h3>
       <form>
         <div class="mb-3">
               <label class="form-label fw-bold small">Nombre</label>
@@ -35,55 +35,41 @@ document.querySelector("#contacto").innerHTML = `
       </form>
     </div>
   </div>
-  <!-- Contenido ventana de habiliadades-->
+  <!-- Ventana de datos de contacto -->
   <div class="col-lg-4">
     <div class="y2k-window">
-      <h2 class="h3 fw-bold text-dark mb-3">
-      <div class="p-4">
+      <div class="p-4">      
+      <h3 class=" fw-bold text-gradient text-center mb-4">Encuentrame en:</h3>
         <div class="stack-box d-flex align-items-start gap-3">
           <div class="fs-2 text-danger">
-            <i class="fa-solid fa-server"></i>
+            <i class="fa-solid "></i>
           </div>
           <div>
-            <h3 class="h6 fw-bold mb-1">Backend</h3>
-            <span class="code-tag">Spring Boot</span>
-            <span class="code-tag">POO</span>
-            <span class="code-tag">Node.JS</span>
-            <span class="code-tag">Python</span>
+            <h3 class="h6 fw-bold mb-1"></h3>
           </div>
         </div>
         <div class="stack-box d-flex align-items-start gap-3">
           <div class="fs-2 text-warning">
-            <i class="fa-solid fa-laptop-code"></i>
+            <i class="fa-solid "></i>
           </div>
           <div>
-            <h3 class="h6 fw-bold mb-1">Frontend</h3>
-            <span class="code-tag">HTML5</span>
-            <span class="code-tag">CSS3</span>
-            <span class="code-tag">JavaScript</span>
-            <span class="code-tag">Vanilla JS</span>
-            <span class="code-tag">Bootstrap 5</span>
+            <h3 class="h6 fw-bold mb-1"></h3>
           </div>
         </div>
         <div class="stack-box d-flex align-items-start gap-3">
           <div class="fs-2 text-info">
-            <i class="fa-solid fa-database"></i>
+            <i class="fa-solid "></i>
           </div>
         <div>
-          <h3 class="h6 fw-bold mb-1">Databases</h3>
-          <span class="code-tag">SQL</span>
-          <span class="code-tag">MySQL</span>
+          <h3 class="h6 fw-bold mb-1"></h3>
           </div>
         </div>
         <div class="stack-box d-flex align-items-start gap-3">
           <div class="fs-2 text-secondary">
-            <i class="fa-solid fa-code-branch"></i>
+            <i class="fa-solid "></i>
           </div>
           <div>
-            <h3 class="h6 fw-bold mb-1">Technologies and Control</h3>
-            <span class="code-tag">Scrum</span>
-            <span class="code-tag">Git</span>
-            <span class="code-tag">GitHub</span>
+            <h3 class="h6 fw-bold mb-1"></h3>
           </div>
         </div>
       </div>
