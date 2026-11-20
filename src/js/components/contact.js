@@ -4,7 +4,7 @@ document.querySelector("#contacto").innerHTML = `
 </div>
 <div class="row justify-content-center">
   <div class="col-lg-8">
-    <div class="contact-card y2k-card p-5 rounded-4 shadow-lg">
+    <div class="contact-card y2k-card p-4 rounded-4 shadow-lg">
       <h3 class=" fw-bold text-gradient text-center mb-4">Envíame un Mensaje</h3>
       <form>
         <div class="mb-3">
@@ -30,7 +30,7 @@ document.querySelector("#contacto").innerHTML = `
               <textarea class="form-control rounded-4 p-3" rows="4" placeholder="Escribe tu mensaje aquí..."></textarea>
         </div>
         <div class="text-center">
-              <button type="submit" class="btn btn-y2k px-5 py-2 w-100 rounded-pill">Enviar mensaje</button>
+              <button type="submit" class="btn btn-y2k px-5 py-2 w-100 rounded-pill"><i class="fa-solid fa-paper-plane me-2"></i> Enviar mensaje</button>
         </div>
       </form>
     </div>
@@ -42,35 +42,29 @@ document.querySelector("#contacto").innerHTML = `
       <h3 class=" fw-bold text-gradient text-center mb-4">Encuentrame en:</h3>
         <div class="stack-box d-flex align-items-start gap-3">
           <div class="fs-2 text-danger">
-            <i class="fa-solid "></i>
+            <i class="fa-solid fa-envelope"></i>
           </div>
           <div>
-            <h3 class="h6 fw-bold mb-1"></h3>
+            <h3 class="h6 fw-bold mb-1">Correo electrónico</h3>
+            <p class="lead text-dark fs-6">marianaalarcon519@gmail.com</p>
           </div>
         </div>
         <div class="stack-box d-flex align-items-start gap-3">
-          <div class="fs-2 text-warning">
-            <i class="fa-solid "></i>
+          <div class="fs-2 text-danger">
+            <i class="fa-brands fa-github"></i>
           </div>
           <div>
-            <h3 class="h6 fw-bold mb-1"></h3>
+            <h3 class="h6 fw-bold mb-1">GitHub</h3>
+            <p class="lead text-dark fs-6">@marianaaquinoalarcon</p>
           </div>
         </div>
         <div class="stack-box d-flex align-items-start gap-3">
-          <div class="fs-2 text-info">
-            <i class="fa-solid "></i>
+          <div class="fs-2 text-danger">
+            <i class="fa-brands fa-linkedin"></i>
           </div>
         <div>
-          <h3 class="h6 fw-bold mb-1"></h3>
-          </div>
-        </div>
-        <div class="stack-box d-flex align-items-start gap-3">
-          <div class="fs-2 text-secondary">
-            <i class="fa-solid "></i>
-          </div>
-          <div>
-            <h3 class="h6 fw-bold mb-1"></h3>
-          </div>
+          <h3 class="h6 fw-bold mb-1">LinkedIn</h3>
+          <p class="lead text-dark fs-6">linkedin.com/in/mariana-arleth-aquino-alarcon </p>      
         </div>
       </div>
     </div>

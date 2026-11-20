@@ -4,9 +4,11 @@ document.querySelector("#about").innerHTML = `
 </div>
 
 <div class="row justify-content-center">
-  <div class="col-lg-12">
-    <div class="y2k-card about-card p-5 rounded-4 shadow-lg text-start">
+<div class="col-lg-12">
+<div class="y2k-card about-card p-5 rounded-4 shadow-lg text-start">
+<div class="position-absolute top-0 end-0 m-3 fs-3 text-warning pulse-star"><i class="fa-solid fa-shield-cat"></i></div>
     <h2 class="h3 fw-bold text-dark mb-3">Conoce un poco sobre mí</h2>
+    <div class="stack-box">
         <p class="lead text-dark fs-6" style="line-height: 1.8;">
         Soy Mariana Aquino, desarrolladora Java Full Stack Jr. con interés en el desarrollo de software y en la creación de soluciones web que respondan a necesidades reales. Mi enfoque está en construir aplicaciones claras, 
          funcionales y bien estructuradas.
@@ -17,6 +19,7 @@ document.querySelector("#about").innerHTML = `
         <p class="lead text-dark fs-6" style="line-height: 1.8;">
        Actualmente me encuentro en constante aprendizaje, con especial interés en el desarrollo backend y en integrarme a un equipo donde pueda aportar, crecer profesionalmente y contribuir a proyectos de impacto. Fuera del código, soy una apasionada de los gatos, y suelen acompañar mis jornadas de trabajo.
         </p>
+        </div>
     </div>
   </div>
 </div>

@@ -189,6 +189,12 @@
       font-size: 0.85rem;
     }
 
+    /* pie de pagina */
+    .y2k-footer{
+      background: linear-gradient(45deg,var(--glass-bg), var(--y2k-light-sparkle), var(--bg-rosa-melon));
+      opacity: 0.9;
+    }
+
     /* Animacion Destellos */
     .pulse-star {
       animation: pulseSparkle 2s infinite alternate ease-in-out;

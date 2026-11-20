@@ -46,11 +46,12 @@ document.querySelector("#proyectos").innerHTML = `
             </p>
             <div class="d-flex flex-wrap gap-2 mb-2">
             <span class="y2k-badge-purple border px-3 py-2 rounded-pill">Java</span>
-            <span class="y2k-badge-purple border px-3 py-2 rounded-pill">Git / GitHub</span>
+            <span class="y2k-badge-purple border px-3 py-2 rounded-pill">Git</span>
+            <span class="y2k-badge-purple border px-3 py-2 rounded-pill">GitHub</span>
             </div>
           </div>
           <div class="mt-3">
-            <a href="https://github.com/yessicachaparro4-cmyk/Hackathon2-AgendaTelefonica.git" target="_blank" rel="noopener noreferrer" class="btn btn-y2k w-100 btn-sm">Ver Repositorio</a>
+            <a href="https://github.com/yessicachaparro4-cmyk/Hackathon2-AgendaTelefonica.git" target="_blank" rel="noopener noreferrer" class="btn btn-y2k w-100 btn-sm">Ver código</a>
           </div>
         </div>
       </div>
@@ -65,7 +66,7 @@ document.querySelector("#proyectos").innerHTML = `
             <h3 class="h4 fw-bold">SportCommerce</h3>
             <img src="./src/assets/sportcommerce.png" class="card-img-top" alt="Landing page SportCommerce" style="height: 180px;">
             <p class="text-secondary small py-2">
-              Aplicación de consola para gestionar una agenda de contactos: agrega, busca, lista, modifica y elimina contactos con validaciones integradas.
+             Tienda en línea enfocada en artículos de deporte y ejercicio, desarrollada con tecnologías web y una interfaz adaptable.
             </p>
             <div class="d-flex flex-wrap gap-2 mb-2">
             <span class="y2k-badge-purple border px-3 py-2 rounded-pill">JavaScript</span>
